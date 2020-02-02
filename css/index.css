@@ -55,7 +55,6 @@ body {
     background-size: cover;
 }
 
-
 div nav {
   display: flex;
   justify-content: center;
@@ -94,12 +93,13 @@ footer {
 nav a {
   color:  #E85A4F;
 }
+
 h2 {
   display: flex;
   justify-content: center;
   padding-top: 8%;
   font-size: 50px;
-  font: arial, sans-serif;
+  font: 45px arial, sans-serif;
   padding-bottom: 2%;
 }
 p {
@@ -167,6 +167,11 @@ p {
 .About-content {
   display: flex;
   justify-content: center;
+  /*background-image: url(../images/couch.jpg);
+  background-image: no-repeat;*/
+  padding: 800px, 100px;
+  background-position: center;
+  background-size: cover;
   padding-top: 3%;
   border-radius: 10%;
 }
