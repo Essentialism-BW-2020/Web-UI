@@ -163,15 +163,3 @@ p {
     margin-top:-6%;
   }
 }
-
-.About-content {
-  display: flex;
-  justify-content: center;
-  /*background-image: url(../images/couch.jpg);
-  background-image: no-repeat;*/
-  padding: 800px, 100px;
-  background-position: center;
-  background-size: cover;
-  padding-top: 3%;
-  border-radius: 10%;
-}
