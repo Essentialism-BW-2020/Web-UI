@@ -25,9 +25,9 @@ body {
 @media (max-width:500px ){
     .nav a {
       display: flex;
-      justify-content: center;
-      font-size: 15px;
-      flex-direction: space-between;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
     }
     body div p {
       display: flex;
@@ -54,11 +54,10 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 10% 35%;
+    justify-content: space-between;
+    padding: 5% 35%;
     border: #E98074;
-    
-  }
+ }
   
   .Team-info img {
     border:3px #E98074;  
@@ -70,3 +69,5 @@ body {
   .Team-info p{
    font-size: 20px;
   }
+
+  

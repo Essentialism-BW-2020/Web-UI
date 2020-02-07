@@ -71,21 +71,7 @@ div nav {
   border-radius: 10px;
   justify-content: space-evenly;
 }
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px 20px 20px 20px;
-  font: 25px arial, bold sans-serif;
-  color: #E85A4F;
-  background-color:  #D9B08C;
-  border: #E85A4F;
-  border-radius: 10px;
-  justify-content: space-evenly;
-}
+
 .Team p {
   display: flex;
   justify-content: space-between;
@@ -110,7 +96,7 @@ p {
 .btn {
   display: flex;
   justify-content: center;
-  border: solid #D9B08C;
+  border: solid rgb(158, 120, 87);
   font-size: large;
   font: 20px arial, sans-serif;
   color: #E85A4F;
@@ -124,7 +110,7 @@ p {
 .btn2 {
   display: flex;
   justify-content: center;
-  border: solid #D9B08C;
+  border: solid rgb(160, 120, 85);
   font-size: large;
   font: 20px arial, sans-serif;
   color:#E85A4F;
@@ -136,12 +122,13 @@ p {
   margin-top: -2.1%;
   margin-bottom: 4%;
 }
+/*
 @media (max-width:500px ){
   .nav a {
     display: flex;
-    justify-content: center;
-    font-size: 15px;
-    flex-direction: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
   body div p {
     display: flex;
@@ -162,4 +149,4 @@ p {
     align-content: center;
     margin-top:-6%;
   }
-}
+}*/
