@@ -63,11 +63,10 @@ div nav {
   width: 100%;
   margin: 0 auto;
   padding: 20px 20px 20px 20px;
-  color: #E85A4F;
+  color: rgb(160, 120, 85);
   font-size: 26px;
   font: 25px arial, sans-serif;
-  /*background-color: #E98074;*/
-  border: #E85A4F;
+  border: rgb(160, 120, 85);
   border-radius: 10px;
   justify-content: space-evenly;
 }
@@ -76,8 +75,9 @@ div nav {
   display: flex;
   justify-content: space-between;
 }
+
 nav a {
-  color:  #E85A4F;
+  color: rgb(199, 135, 76);
 }
 
 h2 {
@@ -88,6 +88,7 @@ h2 {
   font: 45px arial, sans-serif;
   padding-bottom: 2%;
 }
+
 p {
   display: flex;
   justify-content: center;
@@ -96,11 +97,10 @@ p {
 .btn {
   display: flex;
   justify-content: center;
-  border: solid rgb(158, 120, 87);
   font-size: large;
   font: 20px arial, sans-serif;
-  color: #E85A4F;
-  background-color:#E85A4F;
+  color: rgb(211, 81, 72);
+  background-color:rgb(199, 135, 76);
   width: 140px;
   border-radius: 11%;
   line-height: 145%;
@@ -110,19 +110,18 @@ p {
 .btn2 {
   display: flex;
   justify-content: center;
-  border: solid rgb(160, 120, 85);
   font-size: large;
   font: 20px arial, sans-serif;
-  color:#E85A4F;
-  background-color: #E85A4F;
+  color:rgb(211, 59, 48);
+  background-color: rgb(199, 135, 76);
   width: 140px;
   border-radius: 11%;
   line-height: 145%;
   margin-left: 52%;
-  margin-top: -2.1%;
+  margin-top: -1.352%;
   margin-bottom: 4%;
 }
-/*
+
 @media (max-width:500px ){
   .nav a {
     display: flex;
@@ -149,4 +148,4 @@ p {
     align-content: center;
     margin-top:-6%;
   }
-}*/
+}
