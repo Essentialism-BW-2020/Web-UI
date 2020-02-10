@@ -126,6 +126,7 @@ p {
   .nav a {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
@@ -146,6 +147,6 @@ p {
     justify-content: center;
     flex-direction: row;
     align-content: center;
-    margin-top:-6%;
+    margin-top:-3%;
   }
 }
